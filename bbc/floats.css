@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box;
+}
+
+header {
+  clear: both;
+  height: 100px;
+}
+
+header > section {
+  float: left;
+  width: 33.3333%;
+}
+
+header > h1 {
+  float: left;
+  width: 33.3333%;
+  text-align: center;
+}
+
+.left-menu img {
+  width: 5%;
+  height: 5%;
+  padding-left: 10px;
+}
+
+.right-menu {
+  text-align: center;
+}
+
+.right-menu ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.right-menu ul li {
+  float: right;
+}
+
+.right-menu li a {
+  padding: 30px;
+}
+
+.categories {
+  width: 100%;
+  text-align: center;
+}
+
+.categories ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.categories ul li {
+  float: left;
+}
+
+.categories li a {
+  padding: 15px;
+}
+
+main {
+  margin: 0 10%;
+}
+
+main > section {
+  width: 31%;
+  float: left;
+  padding: 0 1%;
+}
+
+main section img {
+  width: 80%;
+}
+
+main > section > ul {
+  padding-inline-start: 2%;
+}
+
+.middle-img {
+  width: 100%;
+}
+
+.side-img {
+  width: 100%;
+}
