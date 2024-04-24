@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+
+/* Header */
+
+nav {
+  border-bottom: 1px solid grey;
+  height: 50px;
+}
+
+.left-nav,
+.right-nav {
+  width: 30%;
+  float: left;
+  /* border: 1px solid black; */
+}
+
+nav > h1 {
+  width: 40%;
+  float: left;
+  text-align: center;
+}
+
+.left-nav li {
+  float: left;
+}
+
+.right-nav li {
+  float: left;
+}
+
+/* Main */
+
+main > section {
+  float: left;
+  width: 50%;
+}
+
+main {
+  margin: 2% 20%;
+}
