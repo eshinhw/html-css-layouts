@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(125, 200, 230);
+  height: 500px;
+  padding: 40px;
+  border: 5px solid rgb(70, 197, 145);
+  margin: 20px 25%;
+}
+
+header > h1 {
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+
+nav {
+  display: block;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  font-weight: bold;
+  color: white;
+  padding: 3px;
+}
+
+.sep {
+  color: grey;
+}
+
+a {
+  color: rgb(70, 197, 145);
+  font-weight: bold;
+}
+
+main {
+  color: white;
+}
+
+footer {
+  text-align: center;
+  margin: 25px 0;
+  clear: both;
+}
+
+img {
+  float: right;
+  width: 150px;
+  height: 200px;
+  margin: 10px;
+}
+
+section {
+  display: block;
+}
